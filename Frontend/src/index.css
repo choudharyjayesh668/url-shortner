@@ -1,0 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap');
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { background: #ffffff; }
+body { min-width: 320px; background: #ffffff; color: #0a1317; font-family: 'Space Grotesk', 'Avenir Next', Avenir, sans-serif; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; }
+button, input { font: inherit; }
