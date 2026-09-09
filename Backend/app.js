@@ -7,13 +7,14 @@ const app=express();
 
 app.use(
   cors({
-    origin: "http://localhost:5174",
+    origin: process.env.CLIENT_URL,
     credentials: true,
   })
 );
 
 app.use(express.urlencoded({extended:true}));
 app.use(express.json());
+
 //Health Checker
 app.get("/health", (req, res) => {
     res.status(200).json({

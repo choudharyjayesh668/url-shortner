@@ -10,9 +10,7 @@ async function startServer() {
         await connectDB();
 
         app.listen(port, () => {
-            console.log(
-                `Server Running on http://localhost:${port}`
-            );
+            console.log(`Server running on port ${port}`);
         });
 
     } catch (error) {
