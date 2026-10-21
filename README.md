@@ -1,5 +1,5 @@
-# URL Shortener `https://url-shortner-seven-blush-49.vercel.app/`
-
+# URL Shortener 
+`https://url-shortner-seven-blush-49.vercel.app/`
 A full-stack URL shortener application that converts long URLs into short, shareable links. The application allows users to generate short URLs and redirect visitors to their original destinations.
 
 ## Features
@@ -32,8 +32,6 @@ A full-stack URL shortener application that converts long URLs into short, share
 git clone `https://github.com/choudharyjayesh668/url-shortner`
 cd URL-Shortener
 ```
-
-Replace `https://github.com/choudharyjayesh668/url-shortner` with your GitHub repository URL.
 
 ### Install Dependencies
 
